@@ -1,5 +1,39 @@
-# Created by https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,vim,python
-# Edit at https://www.toptal.com/developers/gitignore?templates=visualstudiocode,macos,vim,python
+# Created by https://www.toptal.com/developers/gitignore/api/vim,macos,python,visualstudiocode,fortran
+# Edit at https://www.toptal.com/developers/gitignore?templates=vim,macos,python,visualstudiocode,fortran
+
+### Fortran ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 ### macOS ###
 # General
@@ -41,7 +75,6 @@ __pycache__/
 *$py.class
 
 # C extensions
-*.so
 
 # Distribution / packaging
 .Python
@@ -246,4 +279,4 @@ tags
 .history
 .ionide
 
-# End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,macos,vim,python
+# End of https://www.toptal.com/developers/gitignore/api/vim,macos,python,visualstudiocode,fortran
