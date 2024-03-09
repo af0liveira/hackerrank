@@ -45,12 +45,6 @@ Array is sorted in 3 swaps.
 First Element: 1
 Last Element: 3
 """
-import math
-import os
-import random
-import re
-import sys
-
 
 
 if __name__ == '__main__':
